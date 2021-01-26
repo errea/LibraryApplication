@@ -1,12 +1,20 @@
 let library;
 const DEFAULT_DATA = [
-  { name: "The Lord of the Rings", author: "Tolkien", status: "read" },
   {
-    name: "Alice in Wonderland",
-    author: "Lewis Caroll",
+    name: "The rings in perfect circle",
+    author: "Hinsinjik",
+    status: "read"
+  },
+  {
+    name: "Wonderland the Lost Place",
+    author: "Pearl Angle",
     status: "not read",
   },
-  { name: "Naruto", author: "Masashi Kishimoto", status: "read" },
+  {
+    name: "The Masked Man",
+    author: "Masroto Ginnaju",
+    status: "read"
+  },
 ];
 const $name = document.querySelector("#name");
 const $author = document.querySelector("#author");
